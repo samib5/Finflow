@@ -1,2 +1,5 @@
 income = int(input("What's your monthly income ? "))
-print("Your monthly income is", income)
+print(f"Your monthly income is ${income}")
+expense = float(input("What's your monthly expense ? "))
+balance = round(income - expense, 2)
+print(f"Your balance is ${balance}")
